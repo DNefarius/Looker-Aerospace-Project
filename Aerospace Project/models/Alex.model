@@ -1,0 +1,9 @@
+include: "/config/connection.lkml"
+include: "/config/datagroups.lkml"
+include: "/explores/logic/aerospace/telemetry.explore.lkml"
+include: "/explores/consume/aerospace/telemetry_wow.explore.lkml"
+include: "/explores/consume/aerospace/telemetry_aggregate_table.explore.lkml"
+
+
+# Aplicar el datagroup al modelo entero
+persist_with: ALEX
